@@ -1,25 +1,14 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
-
-publish {
-    userOrg = 'bravoborja'
-    groupId = 'com.borjabravo'
-    uploadName = 'ReadMoreTextView'
-    artifactId = 'readmoretextview'
-    publishVersion = '2.1.0'
-    desc = 'A Custom TextView with trim text'
-    website = 'https://github.com/bravoborja/ReadMoreTextView'
-}
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.0'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 27
+        minSdkVersion 22
+        targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "2.1.1"
     }
 
     lintOptions {
