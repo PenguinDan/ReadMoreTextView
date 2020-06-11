@@ -17,6 +17,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:support-compat:27.0.0'
+    implementation 'androidx.core:core:1.0.0'
     testImplementation 'junit:junit:4.12'
 }
